@@ -26,6 +26,8 @@ jobs:
       - run: npm run check
       - run: npx vue-tsc --noEmit
       - run: npm test
+        env:
+          LARAVEL_BYPASS_ENV_CHECK: 1
       - run: composer audit
       - run: vendor/bin/phpstan analyse --memory-limit=1G --no-progress
       - run: vendor/bin/pest

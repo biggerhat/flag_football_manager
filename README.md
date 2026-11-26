@@ -38,10 +38,10 @@ Built with Laravel 13, Inertia 3, Vue 3, Tailwind 4 and SQLite.
 
 ## Quick start
 
-Requirements: PHP 8.3+, Composer, Node 22+. No database server is needed.
+Requirements: PHP 8.4+, Composer, Node 22+. No database server is needed.
 
 ```bash
-git clone <your-repo-url> flag-football-coach
+git clone https://github.com/biggerhat/flag_football_manager.git flag-football-coach
 cd flag-football-coach
 
 composer install
