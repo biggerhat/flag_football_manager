@@ -24,3 +24,7 @@ updates:
       interval: "weekly"
     cooldown:
       default-days: 5
+    ignore:
+      # Platform-specific binaries are managed by their parent packages.
+      - dependency-name: "@rollup/rollup-*"
+      - dependency-name: "@tailwindcss/oxide-*"
